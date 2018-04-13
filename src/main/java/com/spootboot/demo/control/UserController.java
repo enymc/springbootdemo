@@ -27,6 +27,7 @@ public class UserController {
 
     @RequestMapping("/myconfig")
     public String hello2(){
+        System.out.print("hello2+\n");
         return myConfigBean.getName()+myConfigBean.getNumber();
     }
 
